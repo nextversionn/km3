@@ -1,0 +1,13 @@
+asgiref==3.7.2
+backports.zoneinfo==0.2.1
+Django==4.2.8
+django-autoslug==1.9.9
+Pillow==10.1.0
+PyQt5==5.15.9
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.12.2
+PyQtWebEngine==5.15.6
+PyQtWebEngine-Qt5==5.15.2
+sqlparse==0.4.4
+typing_extensions==4.7.1
+tzdata==2023.3

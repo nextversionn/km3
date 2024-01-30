@@ -1,0 +1,56 @@
+ {% extends 'base.html' %}
+ {% block title %}
+ 	<title> Contact Yes</title>
+ {% endblock %}
+ {% block content %}
+<div class="container-fluid">
+ 	<div class="row m-3">
+	 	<div class="col-lg-1"></div>
+	 	<div class="col-lg-10 ">
+	 		<div class="row">
+	 		<div class="col-md-6 p-1">
+		 			<div class="border border-warning border-1 h-100 rounded">
+		 				<div class=""> 
+		 					<h3 class="p-3 text-center text-info"> Our Address </h3>
+		 					<div class="p-3 ta-c">
+		 						<h1 class="text-center text-info">YES-EMBALLAGES</h1>
+		 						
+				                <h6 class="text-info text-center"> Phone: +33 7 58 15 93 04</h6>
+				                
+	            			</div>
+		 				</div>
+		 				
+		 			</div>
+	 			</div>
+	 			<div class="col-md-6 p-1">
+	 				<div class="border-warning border-1 border rounded">
+	 					<h3 class="ta-c p-3 text-info"> Submit Your Details</h3>
+	 					<div class="m-2 border border-1 border-light p-3">
+							<form>
+								<input class="form-control m-1" type="text" name="fristname" placeholder="Frist Name" />
+								<input class="form-control m-1"  type="text" name="lastname" placeholder="Last Name" />
+								<input class="form-control m-1"  type="email" name="email" placeholder="Email Address" />
+								<input class="form-control m-1"  type="text" name="whatsapp" placeholder="Whatsapp" />
+								<input class="form-control m-1"  type="text" name="phone" placeholder="Phone Number" />
+								<input class="form-control m-1"  type="text" name="website" placeholder="Web site" />
+								<input class="form-control m-1"  type="text" name="len" placeholder="Len" />
+								<input class="form-control m-1"  type="text" name="zi1" placeholder="Zip Code" />
+								<input class="form-control m-1"  type="text" name="city" placeholder="city" />
+								<input class="form-control m-1"  type="text" name="state" placeholder="State" />
+								<input class="form-control m-1"  type="text" name="country" placeholder="Country" /> 
+								<textarea rows="10" class="form-control m-1"  placeholder="Your Order..."></textarea>
+								<input type="checkbox" name="chack" > <span> I agree to receiving marketing and promotional materials </span> <br>
+								<input type="submit" name="submit" value="Submit" class=" btn btn-info ta-c">
+							</form>
+						</div>
+					</div>
+	 			</div>
+	 			
+	 			
+	 		</div>
+	 	</div>
+	 	<div class="col-lg-1"></div>
+ 	</div>
+</div>
+	
+{% endblock %}  

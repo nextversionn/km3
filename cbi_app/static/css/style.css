@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+.d-i{display:inline;}
+.bg-ld{background-color:#fce5d3;}
+.text-pink{color:#FF9001;}
+.nav_li{border-bottom:1px solid white;}
+.nav_li:hover{border-bottom:1px solid #FF9001;  }
+.active{border-bottom:1px solid #FF9001;}
+.nav_li_b{text-decoration:none; color:#FF9001;}
+.nav_li_b:hover{ color:#FF9001; border-bottom:1px solid #FF9001;}
+.img_cover{object-fit:cover;}
